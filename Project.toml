@@ -1,0 +1,4 @@
+name = "Geometry"
+uuid = "2a2127a6-0453-458d-9dd0-74020ca62f57"
+authors = ["David Amaro Alcalá <dav1494@ciencias.unam.mx>"]
+version = "0.1.0"
