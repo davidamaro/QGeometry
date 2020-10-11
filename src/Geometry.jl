@@ -4,6 +4,7 @@ import RandomMatrices: Haar
 export reshuffle, canalunistocastico,banano
 export puntosimplejo, soportematriz, canal
 export grupoHW
+export int2bits, inner, findtransvection
 
 function issquare(x::Int64)
     y = isqrt(x)
@@ -97,5 +98,7 @@ end
 function grupoHW(n)
   genQ(n), genP(n)
 end
+
+include("random.jl")
 
 end # module
